@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>Vite + Solid</h1>
       <div class="card">
-        <button onClick={() => setCount((count) => count + 10)}>
+        <button onClick={() => setCount((count) => count + 10*Math.random())}>
           count is {count()}
         </button>
         <p>
